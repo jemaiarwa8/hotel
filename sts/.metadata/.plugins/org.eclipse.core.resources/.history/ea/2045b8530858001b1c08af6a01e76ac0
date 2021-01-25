@@ -1,0 +1,29 @@
+spring.application.name: hotel-service
+#server.port: 8020
+## DB config
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation : true
+        format_sql: true
+        generate_statistics: false
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/hotel
+    username: postgres
+    password: admin
+    
+eureka.client.register-with-eureka: false
+eureka.client.fetch-registry: false

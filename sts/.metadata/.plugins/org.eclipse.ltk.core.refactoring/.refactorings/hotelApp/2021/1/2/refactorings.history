@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;hotelApp/src/main/resources/templates/rooms-single.html&apos; to &apos;room-single.html&apos;" description="Rename resource &apos;rooms-single.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/templates/rooms-single.html" name="room-single.html" stamp="1610845743795" updateReferences="true"/>
+</session>
